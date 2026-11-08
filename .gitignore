@@ -1,0 +1,6 @@
+node_modules
+dist
+apps/server/uploads/*
+!apps/server/uploads/.gitkeep
+apps/server/data/db.json
+*.log

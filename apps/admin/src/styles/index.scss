@@ -1,0 +1,41 @@
+html, body, #app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: #f5f7fa;
+}
+
+.aside {
+  background: #001529;
+  // 覆盖 Element Plus 菜单的取色变量（未选中=白色）
+  --el-menu-text-color: #ffffff;
+  --el-menu-hover-text-color: #ffffff;
+  --el-menu-active-color: #ffffff;
+  --el-menu-hover-bg-color: rgba(255, 255, 255, 0.08);
+  .logo {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  .el-menu {
+    border-right: none;
+    background: transparent;
+  }
+  .el-menu-item {
+    color: #fff;
+    .el-icon { color: inherit; }
+    &:hover { background: rgba(255, 255, 255, 0.08); color: #fff; }
+    &.is-active { background: #1989fa; color: #fff; }
+  }
+}
+
+.page-card {
+  margin: 16px;
+}

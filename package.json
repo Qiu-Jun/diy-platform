@@ -1,0 +1,13 @@
+{
+  "name": "diy-platform",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev:server": "pnpm --filter @diy/server start:dev",
+    "dev:admin": "pnpm --filter @diy/admin dev",
+    "dev:h5": "pnpm --filter @diy/h5 dev",
+    "build:admin": "pnpm --filter @diy/admin build",
+    "build:server": "pnpm --filter @diy/server build"
+  },
+  "packageManager": "pnpm@11.8.0"
+}

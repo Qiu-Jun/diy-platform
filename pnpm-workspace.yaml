@@ -1,0 +1,10 @@
+packages:
+  - 'apps/*'
+  - 'packages/*'
+allowBuilds:
+  better-sqlite3: true
+  '@nestjs/core': true
+  '@parcel/watcher': true
+  canvas: false
+  esbuild: true
+  vue-demi: true
